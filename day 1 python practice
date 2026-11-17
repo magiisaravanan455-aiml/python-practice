@@ -1,0 +1,96 @@
+q =5J
+print(type(q))
+
+q=True
+print(type(q))
+
+q= True 
+print(q)
+
+q=00
+print(bool(q))
+
+q=10
+print(bool(q))
+
+q=101
+print(bool(q))
+
+a='hello'
+print(a,type(a))
+
+a='hello'
+print(a,type(a))
+
+a=[3,4,3,[10,3]]
+print(a[-1])
+
+a=[3,4,3,[10,3]]
+print(a[1])
+
+a=[10,20.4,[10,3]]
+a.pop(0)
+print(a)
+
+a=(10,20,30,)
+print(type(a))
+
+a=[20]
+print(type(a))
+
+a={10,20,30.40,50}
+print(a)
+
+a={1:[10],3:20}
+print(a)
+
+a={1:[10],3:20}
+a[10]=40
+a[3]=[33]
+print(a)
+
+d={'a':10,'b':20}
+print(d)
+
+d={'a':10,'b':20}
+d['a']=33
+print(d)
+
+a='india ia best'
+print(a[:4:1])
+
+a='india is best'
+print(a[:5:-1])
+
+a='india is best'
+print(a[-7:-6+1:])
+
+a='india is best'
+print(a[9:11:-1])
+
+a=5
+b=2
+print(type(a/b))
+
+print(2**3**2)
+
+Name="mahii"
+name="sneha"
+print(name)
+
+name="mahii";
+name="sneha";
+print (name);
+
+age = 20
+
+if age >= 18:
+    print("Eligible to vote")
+else:
+    print("Not eligible")
+#slicing
+a='good morning good afternoon'    
+print(a[0:4:1])
+
+a='good morning good afternoon'    
+print(a[])
